@@ -12,17 +12,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={styles['a-propos']}>
-        <Image src={image1}/>
+        <Image src={image1} alt='reservation'/>
           <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gridTemplateRows:'1fr'}}>
-            <div style={{backgroundColor:'#FB9F16', height:'100%', display:'flex', justifyContent:'space-evenly', flexDirection:'column', alignItems:'center'}}>
+            <div style={{backgroundColor:'var(--orange)', height:'100%', display:'flex', justifyContent:'space-evenly', flexDirection:'column', alignItems:'center'}}>
               <h2>Coaching individuel</h2>
               <button>Réserver</button>
             </div>
-            <div style={{backgroundColor:'#E5E5E5', height:'100%', display:'flex', justifyContent:'space-evenly', flexDirection:'column', alignItems:'center'}}>
+            <div style={{backgroundColor:'var(--light-grey)', height:'100%', display:'flex', justifyContent:'space-evenly', flexDirection:'column', alignItems:'center'}}>
               <h2>Coaching de groupe </h2>
               <button>Réserver</button>
             </div>
-            <div style={{backgroundColor:'#C4C4C4', height:'100%', display:'flex', justifyContent:'space-evenly', flexDirection:'column', alignItems:'center'}}>
+            <div style={{backgroundColor:'var(--grey)', height:'100%', display:'flex', justifyContent:'space-evenly', flexDirection:'column', alignItems:'center'}}>
               <h2>Coaching entreprise</h2>
               <button>Réserver</button>
             </div>

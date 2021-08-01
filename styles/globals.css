@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&display=swap');
+
+:root{
+  --orange: #FB9F16;
+  --light-grey: #E5E5E5;
+  --grey: #C4C4C4;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -19,3 +28,12 @@ a {
   text-decoration: none;
 }
 
+.orange{
+  color:var(--orange);
+}
+
+.title{
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+}

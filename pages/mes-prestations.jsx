@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={styles['a-propos']}>
-        <Image src={image1}/>
+        <Image src={image1}  alt='mes-prestations'/>
         <div className={styles.aPropos}>
           <h3 className={styles.center}>Coaching 1 to 1</h3>
           <div className={styles.aProposText}>
@@ -58,7 +58,7 @@ Je suis la personne qu’il vous faut pour vous faire prendre conscience que le 
         </div>
       </section>
       <section className={styles['a-propos']}>
-        <Image src={image2}/>
+        <Image src={image2} alt='mes-prestations'/>
         <div className={styles.aPropos}>
           <h3 className={styles.center}>Coaching pour les entreprises</h3>
           <div className={styles.aProposText}>
@@ -105,7 +105,7 @@ Des séances accessibles à tous pour vous dépenser et vous sentir au top pour 
         </div>
       </section>
       <section className={styles['a-propos']}>
-        <Image src={image3}/>
+        <Image src={image3} alt='mes-prestations'/>
         <div className={styles.aPropos}>
           <h3 className={styles.center}>Coaching de groupe</h3>
           <div className={styles.aProposText}>

@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={styles['a-propos']}>
-        <Image src={imageAPropos}/>
+        <Image src={imageAPropos} alt='a-propos'/>
         <div className={styles.aPropos}>
           <h3 className={styles.center}>A propos de moi</h3>
           <div className={styles.aProposText}>
